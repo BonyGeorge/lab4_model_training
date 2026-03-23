@@ -6,7 +6,7 @@ import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), "../scripts"))
 from generate_data import generate_data
 
-default_args = {"owner": "airflow", "retries": 1}
+default_args = {"owner": "airflow"}
 
 with DAG(
     dag_id="generate_data_only",
@@ -20,5 +20,5 @@ with DAG(
     generate_task = PythonOperator(
         task_id="generate_data",
         python_callable=generate_data,
-        op_kwargs={"output_path": "data/iris.csv"},
+        op_kwargs={"output_path": "data/breast_cancer.csv"},
     )

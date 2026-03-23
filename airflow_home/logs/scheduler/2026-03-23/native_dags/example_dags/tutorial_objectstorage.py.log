@@ -1,0 +1,440 @@
+[2026-03-23T00:59:48.409+0000] {processor.py:186} INFO - Started process (PID=5918) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T00:59:48.410+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T00:59:48.412+0000] {logging_mixin.py:190} INFO - [2026-03-23T00:59:48.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T00:59:48.419+0000] {logging_mixin.py:190} INFO - [2026-03-23T00:59:48.416+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T00:59:48.419+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T00:59:48.438+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.036 seconds
+[2026-03-23T01:00:54.324+0000] {processor.py:186} INFO - Started process (PID=6062) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:00:54.325+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:00:54.327+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:00:54.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:00:54.331+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:00:54.330+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:00:54.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:00:54.351+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:01:57.490+0000] {processor.py:186} INFO - Started process (PID=6279) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:01:57.491+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:01:57.493+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:01:57.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:01:57.496+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:01:57.495+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:01:57.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:01:57.516+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:03:00.178+0000] {processor.py:186} INFO - Started process (PID=6486) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:03:00.179+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:03:00.181+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:03:00.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:03:00.185+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:03:00.183+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:03:00.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:03:00.204+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:04:06.311+0000] {processor.py:186} INFO - Started process (PID=6627) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:04:06.313+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:04:06.315+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:04:06.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:04:06.318+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:04:06.317+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:04:06.319+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:04:06.338+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:05:11.507+0000] {processor.py:186} INFO - Started process (PID=6801) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:05:11.509+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:05:11.511+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:05:11.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:05:11.514+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:05:11.513+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:05:11.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:05:11.534+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:06:28.883+0000] {processor.py:186} INFO - Started process (PID=6955) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:06:28.884+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:06:28.886+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:06:28.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:06:28.890+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:06:28.889+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:06:28.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:06:28.909+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:07:45.966+0000] {processor.py:186} INFO - Started process (PID=7141) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:07:45.967+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:07:45.969+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:07:45.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:07:45.973+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:07:45.972+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:07:45.974+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:07:45.992+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:08:59.261+0000] {processor.py:186} INFO - Started process (PID=7308) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:08:59.262+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:08:59.264+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:08:59.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:08:59.268+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:08:59.267+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:08:59.269+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:08:59.288+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:10:17.379+0000] {processor.py:186} INFO - Started process (PID=7501) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:10:17.381+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:10:17.382+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:10:17.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:10:17.386+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:10:17.385+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:10:17.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:10:17.406+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:11:24.011+0000] {processor.py:186} INFO - Started process (PID=7636) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:11:24.013+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:11:24.014+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:11:24.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:11:24.018+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:11:24.017+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:11:24.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:11:24.038+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:12:28.842+0000] {processor.py:186} INFO - Started process (PID=7800) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:12:28.843+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:12:28.845+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:12:28.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:12:28.849+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:12:28.847+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:12:28.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:12:28.868+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:13:33.024+0000] {processor.py:186} INFO - Started process (PID=7908) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:13:33.025+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:13:33.027+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:13:33.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:13:33.031+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:13:33.029+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:13:33.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:13:33.050+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:14:35.936+0000] {processor.py:186} INFO - Started process (PID=8062) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:14:35.938+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:14:35.939+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:14:35.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:14:35.943+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:14:35.942+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:14:35.944+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:14:35.963+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:15:47.548+0000] {processor.py:186} INFO - Started process (PID=8226) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:15:47.549+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:15:47.551+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:15:47.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:15:47.555+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:15:47.553+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:15:47.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:15:47.574+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:16:53.057+0000] {processor.py:186} INFO - Started process (PID=8339) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:16:53.059+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:16:53.060+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:16:53.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:16:53.064+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:16:53.063+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:16:53.065+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:16:53.084+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:17:56.748+0000] {processor.py:186} INFO - Started process (PID=8500) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:17:56.750+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:17:56.752+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:17:56.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:17:56.755+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:17:56.754+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:17:56.756+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:17:56.775+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:19:00.342+0000] {processor.py:186} INFO - Started process (PID=8628) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:19:00.344+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:19:00.345+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:19:00.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:19:00.349+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:19:00.348+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:19:00.350+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:19:00.369+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:20:02.813+0000] {processor.py:186} INFO - Started process (PID=8792) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:20:02.814+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:20:02.816+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:20:02.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:20:02.820+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:20:02.819+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:20:02.821+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:20:02.839+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:21:07.703+0000] {processor.py:186} INFO - Started process (PID=8907) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:21:07.704+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:21:07.706+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:21:07.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:21:07.709+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:21:07.708+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:21:07.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:21:07.729+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.032 seconds
+[2026-03-23T01:22:14.446+0000] {processor.py:186} INFO - Started process (PID=9083) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:22:14.447+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:22:14.449+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:22:14.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:22:14.452+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:22:14.451+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:22:14.453+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:22:14.471+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds
+[2026-03-23T01:23:27.271+0000] {processor.py:186} INFO - Started process (PID=9218) to work on /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:23:27.272+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-03-23T01:23:27.274+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:23:27.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:23:27.278+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:23:27.276+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py", line 46, in <module>
+    base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 164, in __call__
+    inst = cls.__new__(cls, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/upath/core.py", line 469, in __new__
+    raise _IncompatibleProtocolError(msg)
+TypeError: ObjectStoragePath(...) detected protocol s3 which is incompatible with ObjectStoragePath.
+[2026-03-23T01:23:27.278+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-03-23T01:23:27.297+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.031 seconds

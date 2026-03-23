@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-def train_model(df: pd.DataFrame, model_path: str = "models/iris_model.pkl") -> float:
+def train_model(df: pd.DataFrame, model_path: str = "models/breast_cancer.pkl") -> float:
     """Train a logistic regression classifier and save it."""
     X = df.drop(columns=["target"])
     y = df["target"]
