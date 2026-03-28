@@ -538,3 +538,228 @@ Traceback (most recent call last):
 NameError: name 'evaluate_task' is not defined
 [2026-03-23T01:23:43.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
 [2026-03-23T01:23:43.708+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.132 seconds
+[2026-03-23T01:24:49.545+0000] {processor.py:186} INFO - Started process (PID=9456) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:24:49.546+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:24:49.548+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:24:49.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:24:51.047+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:24:51.038+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:24:51.055+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:24:51.086+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.548 seconds
+[2026-03-23T01:25:26.343+0000] {processor.py:186} INFO - Started process (PID=9576) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:25:26.351+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:25:26.354+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:25:26.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:25:30.257+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:25:30.246+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:25:30.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:25:30.314+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 3.979 seconds
+[2026-03-23T01:26:10.807+0000] {processor.py:186} INFO - Started process (PID=9741) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:10.809+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:26:10.811+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:26:10.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:12.503+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:26:12.494+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:26:12.512+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:12.531+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.731 seconds
+[2026-03-23T01:26:52.156+0000] {processor.py:186} INFO - Started process (PID=9878) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:52.157+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:26:52.159+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:26:52.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:53.233+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:26:53.228+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:26:53.237+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:26:53.251+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.100 seconds
+[2026-03-23T01:27:25.980+0000] {processor.py:186} INFO - Started process (PID=9940) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:27:25.982+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:27:25.984+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:27:25.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:27:27.052+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:27:27.047+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:27:27.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:27:27.070+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.095 seconds
+[2026-03-23T01:28:25.682+0000] {processor.py:186} INFO - Started process (PID=10094) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:28:25.683+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:28:25.685+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:28:25.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:28:26.769+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:28:26.764+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:28:26.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:28:26.787+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.110 seconds
+[2026-03-23T01:28:59.287+0000] {processor.py:186} INFO - Started process (PID=10155) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:28:59.288+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:28:59.291+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:28:59.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:29:00.374+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:29:00.369+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:29:00.379+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:29:00.394+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.112 seconds
+[2026-03-23T01:29:32.318+0000] {processor.py:186} INFO - Started process (PID=10280) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:29:32.319+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:29:32.321+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:29:32.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:29:33.427+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:29:33.418+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:29:33.432+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:29:33.445+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.133 seconds
+[2026-03-23T01:30:06.990+0000] {processor.py:186} INFO - Started process (PID=10463) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:06.991+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:30:06.994+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:30:06.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:08.099+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:30:08.094+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:30:08.104+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:08.117+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.134 seconds
+[2026-03-23T01:30:40.411+0000] {processor.py:186} INFO - Started process (PID=10513) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:40.412+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:30:40.414+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:30:40.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:41.481+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:30:41.476+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:30:41.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:30:41.499+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.093 seconds
+[2026-03-23T01:31:45.281+0000] {processor.py:186} INFO - Started process (PID=10729) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:31:45.282+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:31:45.284+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:31:45.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:31:46.356+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:31:46.351+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:31:46.361+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:31:46.374+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.098 seconds
+[2026-03-23T01:32:50.467+0000] {processor.py:186} INFO - Started process (PID=10895) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:32:50.468+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:32:50.470+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:32:50.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:32:51.541+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:32:51.536+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:32:51.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:32:51.559+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.098 seconds
+[2026-03-23T01:33:23.240+0000] {processor.py:186} INFO - Started process (PID=11033) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:33:23.242+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:33:23.244+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:33:23.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:33:24.616+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:33:24.607+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:33:24.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:33:24.642+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.407 seconds
+[2026-03-23T01:34:28.972+0000] {processor.py:186} INFO - Started process (PID=11157) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:34:28.973+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:34:28.975+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:34:28.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:34:30.056+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:34:30.050+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:34:30.060+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:34:30.074+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.108 seconds
+[2026-03-23T01:35:03.844+0000] {processor.py:186} INFO - Started process (PID=11290) to work on /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:35:03.844+0000] {processor.py:914} INFO - Processing file /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py for tasks to queue
+[2026-03-23T01:35:03.846+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:35:03.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:35:04.923+0000] {logging_mixin.py:190} INFO - [2026-03-23T01:35:04.918+0000] {dagbag.py:387} ERROR - Failed to import: /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_model_training/venv/lib64/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py", line 42, in <module>
+    train_task >> evaluate_task >> promote_task
+                  ^^^^^^^^^^^^^
+NameError: name 'evaluate_task' is not defined
+[2026-03-23T01:35:04.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py
+[2026-03-23T01:35:04.942+0000] {processor.py:208} INFO - Processing /home/ec2-user/environment/lab4_model_training/airflow_home/dags/ml_training_pipeline_v2.py took 1.104 seconds

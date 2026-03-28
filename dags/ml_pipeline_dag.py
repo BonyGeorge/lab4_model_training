@@ -7,7 +7,7 @@ import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), "../src"))
 
 from ml_pipeline.data import generate_data, load_data
-from ml_pipeline.model import train_model
+from ml_pipeline.model import train_model, evaluate_model
 
 default_args = {"owner": "airflow", "retries": 1}
 
@@ -35,7 +35,7 @@ with DAG(
         python_callable=train_model_wrapper,
         op_kwargs={
             "data_path": "data/iris.csv",
-            "model_path": "models/iris_model.pkl",
+            "model_path": "models/breast_cancer_model.pkl",
         },
     )
 

@@ -1,0 +1,44 @@
+[
+    {
+        "model_version": "20260328_005638",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "archived",
+        "accuracy": 0.96
+    },
+    {
+        "model_version": "20260328_010033",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "archived",
+        "accuracy": 0.96
+    },
+    {
+        "model_version": "20260328_010250",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "archived",
+        "accuracy": 0.96
+    },
+    {
+        "model_version": "20260328_010402",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "archived",
+        "accuracy": 0.96
+    },
+    {
+        "model_version": "20260328_010707",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "archived",
+        "accuracy": 0.96
+    },
+    {
+        "model_version": "20260328_010742",
+        "dataset": "breast_cancer",
+        "model_type": "logistic_regression",
+        "status": "production",
+        "accuracy": 0.96
+    }
+]

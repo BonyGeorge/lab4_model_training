@@ -1,0 +1,27 @@
+[2026-03-24T06:59:49.001+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-24T06:59:49.008+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-03-24T06:59:40.333152+00:00 [queued]>
+[2026-03-24T06:59:49.013+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-03-24T06:59:40.333152+00:00 [queued]>
+[2026-03-24T06:59:49.013+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2026-03-24T06:59:49.026+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): evaluate_model> on 2026-03-24 06:59:40.333152+00:00
+[2026-03-24T06:59:49.033+0000] {standard_task_runner.py:72} INFO - Started process 15201 to run task
+[2026-03-24T06:59:49.037+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ml_training_pipeline_v2', 'evaluate_model', 'manual__2026-03-24T06:59:40.333152+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ml_training_pipeline_v2.py', '--cfg-path', '/tmp/tmpf5eala97']
+[2026-03-24T06:59:49.037+0000] {standard_task_runner.py:105} INFO - Job 30: Subtask evaluate_model
+[2026-03-24T06:59:49.068+0000] {task_command.py:467} INFO - Running <TaskInstance: ml_training_pipeline_v2.evaluate_model manual__2026-03-24T06:59:40.333152+00:00 [running]> on host ip-172-31-67-97.ec2.internal
+[2026-03-24T06:59:49.122+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ml_training_pipeline_v2' AIRFLOW_CTX_TASK_ID='evaluate_model' AIRFLOW_CTX_EXECUTION_DATE='2026-03-24T06:59:40.333152+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-24T06:59:40.333152+00:00'
+[2026-03-24T06:59:49.123+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-03-24T06:59:49.123+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-03-24T06:59:49.123+0000] {logging_mixin.py:190} INFO - Current task name:evaluate_model state:running start_date:2026-03-24 06:59:49.008725+00:00
+[2026-03-24T06:59:49.124+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 and current dag run status:running
+[2026-03-24T06:59:49.124+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-03-24T06:59:49.137+0000] {logging_mixin.py:190} INFO - [ml_pipeline.model] model has been loaded from models/breast_cancer_model.pkl
+[2026-03-24T06:59:49.140+0000] {logging_mixin.py:190} INFO - [ml_pipeline.model] Model accuracy: 0.9561
+[2026-03-24T06:59:49.141+0000] {python.py:240} INFO - Done. Returned value was: 0.956140350877193
+[2026-03-24T06:59:49.155+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-03-24T06:59:49.155+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ml_training_pipeline_v2, task_id=evaluate_model, run_id=manual__2026-03-24T06:59:40.333152+00:00, execution_date=20260324T065940, start_date=20260324T065949, end_date=20260324T065949
+[2026-03-24T06:59:49.164+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-03-24T06:59:49.164+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-03-24T06:59:49.165+0000] {logging_mixin.py:190} INFO - Dag name:ml_training_pipeline_v2 queued_at:2026-03-24 06:59:40.340536+00:00
+[2026-03-24T06:59:49.165+0000] {logging_mixin.py:190} INFO - Task hostname:ip-172-31-67-97.ec2.internal operator:PythonOperator
+[2026-03-24T06:59:49.172+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-24T06:59:49.185+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-24T06:59:49.191+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
