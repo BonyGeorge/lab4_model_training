@@ -48,7 +48,7 @@ with DAG(
                     "model_path": "models/breast_cancer_model.pkl",
     })
     
-    def promote_model_wrapper(s3_uri: str = "s3://mlops-spring26/models/", base_path: str = "models", threshold: float = 0.94):
+    def promote_model_wrapper(s3: str = "s3://mlops-spring26/models/", base_path: str = "models", threshold: float = 0.94):
 
         metadata_path = f"{base_path}/metadata.json"
     
