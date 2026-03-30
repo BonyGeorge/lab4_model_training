@@ -84,13 +84,13 @@ def evaluate_model(df: pd.DataFrame, model_path: str = "models/breast_cancer_mod
     
 
 
-def promote_model(model_version: str, s3_uri: str, base_path: str = "models", threshold: float = 0.94):
+def promote_model(model_version: str, s3: str, base_path: str = "models", threshold: float = 0.94):
     """Promote a model to S3 if it meets the accuracy threshold."""
     
-    if not s3_uri.startswith("s3://"):
-        raise ValueError("s3_uri must start with 's3://'")
+    if not s3.startswith("s3://"):
+        raise ValueError("s3 must start with 's3://'")
     
-    path = s3_uri[5:]
+    path = s3[5:]
     parts = path.split("/", 1)
     bucket_name = parts[0]
     prefix_base = parts[1] if len(parts) > 1 else ""
