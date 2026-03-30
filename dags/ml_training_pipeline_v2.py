@@ -64,7 +64,7 @@ with DAG(
         latest_model = max(candidates, key=lambda m: m["model_version"])
         model_version = latest_model["model_version"]
     
-        promote_model(model_version=model_version, s3_uri=s3_uri, base_path=base_path)
+        promote_model(model_version=model_version, s3=s3, base_path=base_path)
         
     promote_task = PythonOperator(
         task_id="promote_model",
