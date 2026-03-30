@@ -36,13 +36,14 @@ def train_model(df: pd.DataFrame, model_path: str = "models/breast_cancer_model.
 
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     joblib.dump(clf, versioned_model_path)
+    joblib.dump(clf, model_path)
     
     new_entry = {
         "model_version": dtObject_cst,
         "dataset": "breast_cancer",
         "model_type": "logistic_regression",
         "status": "stagging",
-        "accuracy": round(acc, 2)
+        "accuracy": acc
     }
     
     if os.path.exists(metadata_path):
